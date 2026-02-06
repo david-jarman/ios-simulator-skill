@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-plugins-official",
+  "description": "Directory of popular Claude Code extensions including development tools, productivity plugins, and MCP integrations",
+  "owner": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  },
+  "plugins": [
+    {
+      "name": "ios-dev",
+      "description": "iOS development plugin",
+      "author": {
+        "name": "conorluddy",
+        "email": "support@anthropic.com"
+      },
+      "source": "./plugins/ios-dev",
+      "category": "productivity",
+      "homepage": "https://github.com/david-jarman/ios-simulator-skill/tree/main/plugins/ios-dev/skills/ios-simulator-skill"
+    }
+  ]
+}
