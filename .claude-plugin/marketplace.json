@@ -1,7 +1,10 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "ios-dev-dajarma",
-  "owner": "David Jarman",
+  "owner": {
+    "name": "David Jarman",
+    "email": "davidbjarman@gmail.com"
+  },
   "plugins": [
     {
       "name": "ios-dev",
