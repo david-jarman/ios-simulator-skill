@@ -1,22 +1,11 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "ios-dev-dajarma",
-  "description": "iOS dev related plugins.",
-  "owner": {
-    "name": "Anthropic",
-    "email": "support@anthropic.com"
-  },
   "plugins": [
     {
       "name": "ios-dev",
       "description": "iOS development plugin",
-      "author": {
-        "name": "conorluddy",
-        "email": "support@anthropic.com"
-      },
-      "source": "./plugins/ios-dev",
-      "category": "productivity",
-      "homepage": "https://github.com/david-jarman/ios-simulator-skill/tree/main/plugins/ios-dev/skills/ios-simulator-skill"
+      "source": "./plugins/ios-dev"
     }
   ]
 }
